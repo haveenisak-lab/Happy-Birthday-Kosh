@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Birthday!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;600&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="photo-bg" id="photoBg" aria-hidden="true"></div>
+<div class="sticker-bg" id="stickerBg" aria-hidden="true"></div>
+<div class="wrap">
+<header class="hero">
+<div class="hl" id="hl"></div>
+<p class="script">for my favourite person in the whole world</p>
+<h1 id="title">Happy Birthday!</h1>
+<p>Miles apart, but I made you a little corner of the internet to play, open and smile at on your special day.</p>
+<button class="btn" id="go">Open your surprise 💌</button>
+</header>
+
+<section id="story">
+<div class="story">
+<p class="script">Dear Kosh,</p>
+<p>Some people make a place feel like home. You make a whole person feel like home. Even with miles and time zones between us, you are the first thing I think about when I wake up and the last thing on my mind before I fall asleep.</p>
+<p>I can’t hug you today, so I built you this little world instead. Pop the balloons, match the hearts, open the coupons and read my letter. Every bit of it was made just for you, with lots of love and a few nerves, hoping it makes you smile.</p>
+<p>Today the whole world gets to celebrate you, and I get to be the luckiest person who loves you. Happy birthday, my heart. 💗</p>
+</div>
+</section>
+
+<section id="s1">
+<h2>Pop a balloon 🎈</h2>
+<p class="sub">Each balloon is hiding a little reason why I love you. I could list a thousand, but let’s start with eight. <span id="cnt">0</span> of 8 popped.</p>
+<div class="balloons" id="bal"></div>
+<div class="msg" id="msg">Pick a balloon.</div>
+</section>
+
+<section>
+<h2>Match the hearts 💞</h2>
+<p class="sub">Like us, every heart here has its perfect match. Flip the cards and find them all. <span id="mv">0</span> moves so far.</p>
+<div class="mem" id="mem"></div>
+<div class="msg" id="mres">Flip two cards to start.</div>
+</section>
+
+<section>
+<h2>Love coupons 🎟️</h2>
+<p class="sub">Little promises from me to you. Tap each one to open it. They never expire, and I will never say no.</p>
+<div class="coupons" id="cps"></div>
+</section>
+
+<section>
+<h2>Make a wish 🕯️</h2>
+<p class="sub">Close your eyes, think of the thing you want most, then blow out the candles. I’ll be wishing right along with you.</p>
+<div class="cake" id="cake">
+<div class="candles"><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div></div>
+<div class="cake-base"></div>
+<button class="btn" id="blow">Blow out the candles</button>
+<p id="wm" style="margin:16px 0 0;color:var(--mute)"></p>
+</div>
+</section>
+
+<section>
+<h2>A love letter for you 💌</h2>
+<div class="letter" id="letter"></div>
+</section>
+
+<footer><p class="script">I love you, Kosh. Always.</p>Made with all my heart, from far away but never far from you.</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
